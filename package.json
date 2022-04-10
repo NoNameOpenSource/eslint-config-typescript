@@ -1,10 +1,15 @@
 {
     "name": "@nonameopensource/typescript-eslint-config",
     "version": "1.0.0",
-    "description": "Our base eslint configuration for TypeScript projects",
-    "main": "index.js",
-    "types": "types/index.d.ts",
-    "scripts": {},
+    "description": "Our base eslint plugin for TypeScript projects",
+    "main": "dist/index.js",
+    "scripts": {
+        "compile": "rm -rf dist && tsc",
+        "prepack": "npm run compile && npm run lint",
+        "watch": "tsc -w true",
+        "lint": "eslint --ext ts src/*",
+        "fix": "prettier --config .prettierrc.yml 'src/**/*.ts' --write"
+    },
     "config": {
         "fund": false
     },
@@ -18,9 +23,18 @@
     },
     "homepage": "https://github.com/NoNameOpenSource/typescript-eslint-config#readme",
     "devDependencies": {
-        "prettier": "^2.6.2"
+        "@tsconfig/node16": "^1.0.2",
+        "@types/eslint": "^8.4.1",
+        "@types/node": "^17.0.23",
+        "@typescript-eslint/eslint-plugin": "^5.18.0",
+        "@typescript-eslint/parser": "^5.18.0",
+        "eslint": "^8.13.0",
+        "prettier": "^2.6.2",
+        "typescript": "^4.6.3"
     },
     "dependencies": {
-        "@getify/eslint-plugin-proper-arrows": "^11.0.3"
+        "@getify/eslint-plugin-proper-arrows": "^11.0.3",
+        "eslint-plugin-jsdoc": "^39.1.0",
+        "eslint-plugin-node": "^11.1.0"
     }
 }

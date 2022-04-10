@@ -1,3 +1,6 @@
 .vscode
 .github
 .gitignore
+tsconfig.json
+src
+

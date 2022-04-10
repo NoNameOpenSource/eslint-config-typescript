@@ -1,4 +1,6 @@
-const config = {
+import * as eslint from "eslint";
+
+const config: eslint.Linter.Config = {
     parser: "@typescript-eslint/parser",
     parserOptions: {
         project: "./tsconfig.json",
@@ -103,4 +105,4 @@ const config = {
     },
 };
 
-module.exports = config;
+export = config;

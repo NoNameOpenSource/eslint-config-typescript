@@ -30,6 +30,8 @@
         ".prettierrc.yml": true,
         ".gitignore": true,
         ".npmrc": true,
-        ".npmignore": true
+        ".npmignore": true,
+        "dist": true,
+        "types": true
     }
 }
