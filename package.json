@@ -1,0 +1,26 @@
+{
+    "name": "@nonameopensource/typescript-eslint-config",
+    "version": "1.0.0",
+    "description": "Our base eslint configuration for TypeScript projects",
+    "main": "index.js",
+    "types": "types/index.d.ts",
+    "scripts": {},
+    "config": {
+        "fund": false
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NoNameOpenSource/desk.git"
+    },
+    "author": "NoNameOpenSource Team",
+    "bugs": {
+        "url": "https://github.com/NoNameOpenSource/desk/issues"
+    },
+    "homepage": "https://github.com/NoNameOpenSource/desk#readme",
+    "devDependencies": {
+        "prettier": "^2.6.2"
+    },
+    "dependencies": {
+        "@getify/eslint-plugin-proper-arrows": "^11.0.3"
+    }
+}
