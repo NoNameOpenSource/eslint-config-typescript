@@ -1,6 +1,10 @@
+src
 .vscode
 .github
 .gitignore
 tsconfig.json
-src
 dist/demo.js
+.eslintrc.yml
+.eslintignore
+types
+
