@@ -5,7 +5,7 @@ on:
         branches: [main]
 
 jobs:
-    Main:
+    Publish to GitHub Package Registry:
         runs-on: ubuntu-latest
 
         steps:
