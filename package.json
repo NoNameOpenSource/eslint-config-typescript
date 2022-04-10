@@ -10,13 +10,13 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/NoNameOpenSource/desk.git"
+        "url": "git+https://github.com/NoNameOpenSource/typescript-eslint-config.git"
     },
     "author": "NoNameOpenSource Team",
     "bugs": {
-        "url": "https://github.com/NoNameOpenSource/desk/issues"
+        "url": "https://github.com/NoNameOpenSource/typescript-eslint-config/issues"
     },
-    "homepage": "https://github.com/NoNameOpenSource/desk#readme",
+    "homepage": "https://github.com/NoNameOpenSource/typescript-eslint-config#readme",
     "devDependencies": {
         "prettier": "^2.6.2"
     },
