@@ -3,4 +3,4 @@
 .gitignore
 tsconfig.json
 src
-
+dist/demo.js
